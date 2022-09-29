@@ -1,0 +1,7 @@
+print ('Введите а: ')
+a = int (input())
+print ('Введите b: ')
+b = int (input())
+print ('{1} - {0}' .format(a, b))
+print (f'{a} - {b}')
+print (a, '+',b, '=', a+b)
